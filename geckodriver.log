@@ -123,3 +123,21 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
 1602001749306	Marionette	INFO	Listening on port 53212
 1602001749565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602004094051	geckodriver	INFO	Listening on 127.0.0.1:53675
+1602004097072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofile1umo06"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602004099399	Marionette	INFO	Listening on port 53684
+1602004099678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602005745234	geckodriver	INFO	Listening on 127.0.0.1:54162
+1602005748280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofileGa8gRh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602005750991	Marionette	INFO	Listening on port 54170
+1602005751394	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602008834985	geckodriver	INFO	Listening on 127.0.0.1:54740
+1602008838031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofiledRWh5x"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602008840579	Marionette	INFO	Listening on port 54749
+1602008840644	Marionette	WARN	TLS certificate errors will be ignored for this session
