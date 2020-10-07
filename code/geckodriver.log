@@ -1,0 +1,26 @@
+1602073167153	geckodriver	INFO	Listening on 127.0.0.1:59987
+1602073170260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofileqBjISH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602073172784	Marionette	INFO	Listening on port 59995
+1602073172870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602073427673	geckodriver	INFO	Listening on 127.0.0.1:60088
+1602073430741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofilevpOcZs"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602073433271	Marionette	INFO	Listening on port 60096
+1602073433361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602073486622	geckodriver	INFO	Listening on 127.0.0.1:60183
+1602073489649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofile5KJxNa"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602073492204	Marionette	INFO	Listening on port 60192
+1602073492269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rapidapi.com/api-sports/api/api-football-beta line 3827 > injectedScript, line 2: TypeError: a is null
+1602073619560	Marionette	INFO	Stopped listening on port 60192
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
