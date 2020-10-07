@@ -218,3 +218,40 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1602052744436	geckodriver	INFO	Listening on 127.0.0.1:51781
+1602052747507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofileqwRGfy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602052751542	Marionette	INFO	Listening on port 51789
+1602052751641	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602060764170	Marionette	INFO	Stopped listening on port 51789
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileJgrKrC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602057180326	Marionette	INFO	Listening on port 60870
+1602057180440	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602060764984	Marionette	INFO	Stopped listening on port 60870
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofilebAqJTz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602057225328	Marionette	INFO	Listening on port 61005
+1602057225576	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602060766064	Marionette	INFO	Stopped listening on port 61005
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
