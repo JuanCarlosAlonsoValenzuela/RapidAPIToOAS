@@ -28,10 +28,17 @@ def obtain_html(url):
 
 def print_oas(version, endpoints):
     first_part = generate_first_part(version)
-    print(first_part)
+    print(yaml.dump(first_part))
 
     endpoints_part = generate_paths(endpoints)
-    print(endpoints_part)
+    print(yaml.dump(endpoints_part))
+
+
+def write_oas(version, endpoints, apiname):
+
+    with open('{}.yaml'.format(apiname), 'w') as outfile:
+        yaml.dump(generate_first_part(version), outfile, default_flow_style=False)
+        yaml.dump(generate_paths(endpoints), outfile, default_flow_style=False)
 
 
 
@@ -54,7 +61,7 @@ def generate_first_part(version):
 
     res['host'] = version['publicdns'][0]['address']
 
-    return yaml.dump(res)
+    return res
 
 
 # TODO: Regular expressions and datetime
@@ -125,4 +132,4 @@ def generate_paths(endpoints):
             p[method]['parameters'].append(param)
 
         res['paths'][route] = p
-    return yaml.dump(res)
+    return res

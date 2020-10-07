@@ -7,7 +7,9 @@ url_map = {
     'Api-football' : 'https://rapidapi.com/api-sports/api/api-football-beta'
 }
 
-api_spec_url = url_map['Api-football']
+apiname = 'Api-football'
+
+api_spec_url = url_map[apiname]
 
 html, data = functions.obtain_html(api_spec_url)
 
@@ -22,3 +24,4 @@ version = api_ed84['version']
 endpoints = version['endpoints']
 
 functions.print_oas(version, endpoints)
+functions.write_oas(version, endpoints, apiname)

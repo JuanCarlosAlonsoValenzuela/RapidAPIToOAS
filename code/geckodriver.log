@@ -24,3 +24,23 @@ JavaScript error: https://rapidapi.com/api-sports/api/api-football-beta line 382
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1602076353704	geckodriver	INFO	Listening on 127.0.0.1:60592
+1602076356785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofileeGuMLQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602076359293	Marionette	INFO	Listening on port 60600
+1602076359395	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rapidapi.com/api-sports/api/api-football-beta line 3827 > injectedScript, line 2: TypeError: a is null
+1602076551047	geckodriver	INFO	Listening on 127.0.0.1:60805
+1602076554098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofileJNbhR7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602076556672	Marionette	INFO	Listening on port 60814
+1602076556715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602076763150	geckodriver	INFO	Listening on 127.0.0.1:60924
+1602076766206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JUANCA~1\\AppData\\Local\\Temp\\rust_mozprofileHhbvBS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602076768601	Marionette	INFO	Listening on port 60932
+1602076768818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rapidapi.com/api-sports/api/api-football-beta line 3827 > injectedScript, line 2: TypeError: a is null
