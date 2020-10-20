@@ -30,7 +30,7 @@ def print_oas(version, endpoints):
     first_part = generate_first_part(version)
     print(yaml.dump(first_part))
 
-    endpoints_part = generate_paths(endpoints)
+    endpoints_part = generate_paths(endpoints, version)
     print(yaml.dump(endpoints_part))
 
 
@@ -38,7 +38,7 @@ def write_oas(version, endpoints, apiname):
 
     with open('{}.yaml'.format(apiname), 'w') as outfile:
         yaml.dump(generate_first_part(version), outfile, default_flow_style=False)
-        yaml.dump(generate_paths(endpoints), outfile, default_flow_style=False)
+        yaml.dump(generate_paths(endpoints, version), outfile, default_flow_style=False)
 
 
 
@@ -59,13 +59,14 @@ def generate_first_part(version):
     res['info']['title'] = version['api']
     res['info']['version'] = version['id']
 
-    res['host'] = version['publicdns'][0]['address']
+    res['host'] = 'https://rapidapi.p.rapidapi.com/'
+        # version['publicdns'][0]['address']
 
     return res
 
 
 # TODO: Regular expressions and datetime
-def generate_paths(endpoints):
+def generate_paths(endpoints, version):
     res = {
         'paths': {}
     }
@@ -96,6 +97,17 @@ def generate_paths(endpoints):
         p[method]['description'] = path['description'] if path['description'] is not None else ""
         p[method]['operationId'] = path['id'] if path['id'] is not None else ""
 
+        host = {
+            'name' : 'X-RapidAPI-Host',
+            'in' : 'header',
+            'required' : True,
+            'description' : 'X-RapidAPI-Host',
+            'schema' : {
+                'type' : 'string',
+                'enum' : [ version['publicdns'][0]['address'] ]
+            }
+        }
+        p[method]['parameters'].append(host)
         for parameter in path['params']['parameters'] if path['params'] is not None else []:
             param = {
                 'name': '',

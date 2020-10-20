@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f7064b6-adf2-4592-b901-d2a5f2de133e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/ClimaCell.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/code/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />

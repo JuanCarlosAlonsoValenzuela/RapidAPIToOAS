@@ -27,7 +27,7 @@ url_map = {
     'Api-football' : 'https://rapidapi.com/api-sports/api/api-football-beta'
 }
 
-apiname = 'GreatCircleMapper'
+apiname = 'AirportInfo'
 
 api_spec_url = url_map[apiname]
 
