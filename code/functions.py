@@ -59,7 +59,7 @@ def generate_first_part(version):
     res['info']['title'] = version['api']
     res['info']['version'] = version['id']
 
-    res['host'] = 'https://rapidapi.p.rapidapi.com/'
+    res['host'] = 'rapidapi.p.rapidapi.com'
         # version['publicdns'][0]['address']
 
     return res
@@ -102,10 +102,8 @@ def generate_paths(endpoints, version):
             'in' : 'header',
             'required' : True,
             'description' : 'X-RapidAPI-Host',
-            'schema' : {
-                'type' : 'string',
-                'enum' : [ version['publicdns'][0]['address'] ]
-            }
+            'type': 'string',
+            'enum' : [ version['publicdns'][0]['address'] ]
         }
         p[method]['parameters'].append(host)
         for parameter in path['params']['parameters'] if path['params'] is not None else []:
