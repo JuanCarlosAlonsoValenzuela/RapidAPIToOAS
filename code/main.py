@@ -12,7 +12,6 @@ url_map = {
     'UsWeatherByZipCode': 'https://rapidapi.com/interzoid/api/us-weather-by-zip-code',
     'ClimaCell' : 'https://rapidapi.com/ClimaCell/api/climacell',
     'CountriesCities' : 'https://rapidapi.com/natkapral/api/countries-cities',
-    'UsWeatherByCity' : 'https://rapidapi.com/interzoid/api/us-weather-by-city',
     'WeatherForecast14Days' : 'https://rapidapi.com/weatheronline/api/weather-forecast-14-days',
     'TrueWayGeocoding' : 'https://rapidapi.com/trueway/api/trueway-geocoding',
     'Asos' : 'https://rapidapi.com/apidojo/api/asos2/',
@@ -24,7 +23,7 @@ url_map = {
     'Api-football' : 'https://rapidapi.com/api-sports/api/api-football-beta'
 }
 
-apiname = 'ChickenCoop'
+apiname = 'FlightData'
 
 api_spec_url = url_map[apiname]
 
